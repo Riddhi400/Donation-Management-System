@@ -90,13 +90,14 @@ Donation-Management-System/
 
 2. Configure PostgreSQL Database
    
-   spring.datasource.url=jdbc:postgresql://localhost:5432/donation_db
-   
-   spring.datasource.username=postgres
-   
-   spring.datasource.password=riddhi
-   
-   spring.jpa.hibernate.ddl-auto=update
+ spring.datasource.url=jdbc:postgresql://localhost:5432/donation_db
+spring.datasource.username=postgres
+spring.datasource.password=riddhi
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+server.port=8080
 
 3.Run the Application
 
