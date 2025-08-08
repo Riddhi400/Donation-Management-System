@@ -1,0 +1,5 @@
+com\example\donation\DonorRepository.class
+com\example\donation\Donor.class
+com\example\donation\DonationManagementSystemApplication.class
+com\example\donation\DonorService.class
+com\example\donation\DonationController.class
