@@ -92,9 +92,9 @@ Donation-Management-System/
    
    spring.datasource.url=jdbc:postgresql://localhost:5432/donation_db
    
-   spring.datasource.username=your_username
+   spring.datasource.username=postgres
    
-   spring.datasource.password=your_password
+   spring.datasource.password=riddhi
    
    spring.jpa.hibernate.ddl-auto=update
 
